@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(61, 61, 230);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-indent: 10px;
+    gap: 50%;
+}
+
+.navname{
+    color: whitesmoke;
+}
+
+.navtitle a{
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.navtitle a:hover{
+    padding: 7px;
+    transform: scale(1.5);
+    transition: 1.1s;
+}
+
+a:hover{
+    transition: 0.5s;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    gap: 5%;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.detail .imgae{
+    width: 350px;
+    height: 60vh;
+}
+
+.detail img{
+    width: 350px;
+    height:50vh ;
+    border-radius: 50%;
+    border: 7px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.detail .about{
+    width: 65%;
+    height: 25vh;  
+    font-family: 'Roboto', sans-serif; 
+}
+
+.about .Down{
+    padding: 5px;
+    background-color:rgb(3, 98, 142);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 150px;
+    border: none;
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about .Down:hover{
+    cursor: pointer;
+    background-color: rgb(49, 150, 197);
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.Skills{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+.skillback{
+    width:90%;
+    height: 50vh;
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    color:blue;
+}
+
+.subtitle{
+    color: rgb(54, 54, 207);
+    text-align: center;
+}
+
+.skill1{
+    background-color:whitesmoke;
+    padding: 14px;
+    border-radius: 25px;
+    line-height:2.0;
+    height: fit-content;
+}
+
+.skill2{
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    line-height:2.0;
+    height: fit-content;
+}
+
+.skill3{
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    line-height:2.0;
+    height: fit-content;
+}
+
+.music{
+    color: rgb(27, 27, 243); 
+    text-align: center; 
+    font-size: 35px; 
+    text-transform: uppercase;
+}
+
+.PROJECT{
+    gap: 20px;
+    padding: 10px;
+    width: 95%;
+    text-indent: 10px;
+}
+
+.PROJECT .Des{
+    font-size: 35px;
+    color: rgb(54, 54, 207);
+}
+
+.PROJECT p{
+    font-size: 22px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keybox{
+    text-indent: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.keyfeatures{
+    width: 45%;
+    height: 60vh;
+    background-color: rgb(232, 232, 232);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.Tech{
+    width: 45%;
+    height: 60vh;
+    background-color: rgb(232, 232, 232);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.Tech{
+    width: 45%;
+    height: 60vh;
+}
+
+.Tech p{
+    line-height: 3.3;
+}
+
+.outcome1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.outcome1 p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.education{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    gap: 50px;
+    height: 35vh;
+    line-height: 2.0;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+
+.Education{
+    font-size: 20px;
+}
+
+.Education1{
+    font-size: 20px;
+}
+
+.info{
+    background-color: rgb(54, 54, 207);
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact{
+    color:rgb(202, 202, 202) ;
+    line-height: 2.5;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.contact1{
+    color:rgb(202, 202, 202) ;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    
+    .navbar{
+        display: none;
+    }
+
+    .imgae{
+        width: 100%;
+    }
+    
+    
+    body{
+        font-size: 14px;
+    }
+
+
+    .navtitle a{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .detail{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
